@@ -1,41 +1,24 @@
-# Front-End Developer
+# Xramile Engineering Evaluation Challenges Repository
 
-## Introduction
+## Overview
 
-This challenge expects you to build a simple e-commerce shopping page, with a basic cart functionality, using React ecosystem.
+This repository contains a collection of coding challenges designed to assess and evaluate the skills of developers in various domains. Each challenge is detailed in its own Markdown file, focusing on specific requirements and objectives.
 
-## Required
+## How to Use This Repository
 
-You have to implement two pages. One is the gallery page which has list of product the user can select from it. you can find the products information in `db.json` file. The second page is the cart page, which contains a list of the items the user have added to the cart.
+- Each challenge is self-contained in its Markdown file.
+- Review the specific requirements and objectives outlined in each file.
+- Fork or clone this repository to start working on the challenges.
+- After finish the challenge submit the solutions as pull requests for review and feedback.
 
-Try to make a clean and organized layout, however the UI design is not part of evaluation.
+## Contributing
 
-## Main Functionality
+Contributions to this repository are welcome. If you have a coding challenge that you would like to add, please submit it as a pull request with a detailed description in a separate Markdown file.
 
-### Gallery Page
+## License
 
-1. `Navbar`
-     - Cart Menu
-     - Badge with cart count
-     - On click, Show list of products in the cart
-     - Show a descriptive message if the cart is empty
-     - Checkout button, on click open cart page
+[MIT License](LICENSE)
 
-2. `Products list`
-    - List of some products with images, title, price
-    - Add to cart button under each product
-    - On click on the product, open modal with more details
+---
 
-3. `Pagination`
-    - Client side pagination to move between the products
-
-### Cart page
-
-- List products in the cart
-- Any thing extra in this page is plus
-
-## Evaluation criteria
-
-Layout should be responsive showing desktop version for resolutions greater than or equal to 960 px and mobile version for resolutions below 960.
-
-In addition to the functionality, we will also evaluate the code style, code structure, project documentation, Git messages, code linting, and ease of setup.
+We hope these challenges provide a comprehensive platform for developers to test and showcase their skills across different aspects of software development. Happy coding!
